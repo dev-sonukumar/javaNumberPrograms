@@ -21,7 +21,7 @@ public class ArmstrongNumber {
 		long copyNumOne = num;
 		long copyNumTwo = num;
 
-//		---- Start count of a number ---
+//		---- Start count of a number ----
 
 		long count = 0;
 		while (copyNumOne != 0) {
