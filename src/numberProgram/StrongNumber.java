@@ -14,9 +14,14 @@ public class StrongNumber {
 
 	public static void main(String[] args) {
 		// Strong Number , Peterson Number
+		/*
+		 * number - 145 --> 1! + 4! + 5! = 145 // Strong Number
+		 * 
+		 * number - 125 --> 1! + 2! + 5! = 123 // Number is not a Strong Number
+		 */
 
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter any Number - ");
+		System.out.println("Enter any Number to check Number is strong number or not - ");
 
 		int num = sc.nextInt();
 
@@ -25,8 +30,8 @@ public class StrongNumber {
 		int copy = num;
 
 		while (num != 0) {
-			temp = num % 10;
 
+			temp = num % 10;
 			int x = factorial(temp);
 			strong = strong + x;
 
