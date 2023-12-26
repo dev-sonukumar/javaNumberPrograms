@@ -14,6 +14,7 @@ public class StrongNumber {
 
 	public static void main(String[] args) {
 		// Strong Number , Peterson Number
+
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter any Number - ");
 
