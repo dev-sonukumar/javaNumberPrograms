@@ -20,7 +20,7 @@ public class AutomorphicNumber {
 		int num = sc.nextInt();
 		int sqr = (int) Math.pow(num, 2);
 
-		if (num < 0 && num >= 9) {
+		if (num > 0 && num <= 9) {
 			int ext = sqr % 10;
 
 			if (num == ext) {
